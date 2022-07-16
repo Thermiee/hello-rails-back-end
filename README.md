@@ -1,24 +1,73 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails React
 
-Things you may want to cover:
+> Understand the setup process for adding React/Redux to rails application.
 
-* Ruby version
+## Project Requirement
 
-* System dependencies
+ - Create a new Rails API app called 'hello-rails-back-end'.
+ - Initialize your project with Git.
+ - Make sure that your project has a Postgres database set up. 
+ - Create a table for storing your messages and create 5 different greetings. 
+ - Create an API endpoint that selects a random greeting from your table (you will need a controller with an action an rails route).
 
-* Configuration
+## Built With
 
-* Database creation
+- RUBY
+- RAILS
+- GEM
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+Start by cloning the repository.
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+git clone git@github.com:Thermiee/Hello-Rails-Back-End.git
+```
 
-* Deployment instructions
+Navigate to the created folder.
 
-* ...
+```
+cd Hello-Rails-Back-End
+```
+
+Install all the dependencies.
+
+```
+bundle install
+```
+
+Create and migrate the database
+
+```
+rails db:create
+rails db:migrate
+```
+
+To run the server
+
+```
+rails s
+```
+
+## 👤 Author 
+Emmanuel Jolugbo
+- GitHub: [Thermiee](https://github.com/Thermiee)
+- LinkedIn: [Emmanuel Jolugbo](https://www.linkedin.com/in/emmanuel-jolugbo/)
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
