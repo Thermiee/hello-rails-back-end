@@ -26,6 +26,11 @@ Start by cloning the repository.
 git clone git@github.com:Thermiee/Hello-Rails-Back-End.git
 ```
 
+React-frontend 
+
+[Frontend Repo](https://github.com/Thermiee/hello-react-front-end)
+
+
 Navigate to the created folder.
 
 ```
